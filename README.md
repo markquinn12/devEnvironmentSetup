@@ -77,6 +77,10 @@ No explanations needed for some of these! All software is latest version availab
 - [Webexplayer](https://www.webex.com/play-webex-recording.html) - Watch/record/edit webex recordings
 
 ## Software not available in chocolatey
+
+The below tools are not available on chocolatey so need to be manually downloaded and installed.
 - [SoapUI](https://www.soapui.org/) - Service testing solution
 - [Carnac](https://github.com/Code52/carnac) - Shows what keys are being pressed graphically. Great for demos and functionality recording
 - [SqlDeveloper](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index-097090.html) - GUI for oracle DB.
+- [SonarQube](http://www.sonarqube.org/) - Open source tool to manage code quality
+- [Slack](https://slack.com/downloads) - Messaging app for teams
