@@ -75,3 +75,8 @@ No explanations needed for some of these! All software is latest version availab
 - [Picasa](https://picasa.google.com/) - Photo editor
 - [Maven](https://maven.apache.org/) - Open source project management and comprehension tool.
 - [Webexplayer](https://www.webex.com/play-webex-recording.html) - Watch/record/edit webex recordings
+
+## Software not available in chocolatey
+- [SoapUI](https://www.soapui.org/) - Service testing solution
+- [Carnac](https://github.com/Code52/carnac) - Shows what keys are being pressed graphically. Great for demos and functionality recording
+- [SqlDeveloper](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index-097090.html) - GUI for oracle DB.
