@@ -11,7 +11,7 @@ A bat file to install all my development utilities on a windows machine
 **Note:** Opening the command prompt as an administrator is important. Some software may not install if not run as an administrator.
 
 ## Development Config
-There are a few scripts included which will config windows for development purposes. 
+There are a few scripts included which will configure windows for development purposes. 
 
 Overview of the scripts included:
 - Changing windows explorer to show hidden files and file extensions by default
