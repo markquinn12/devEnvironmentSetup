@@ -10,6 +10,18 @@ A bat file to install all my development utilities on a windows machine
 
 **Note:** Opening the command prompt as an administrator is important. Some software may not install if not run as an administrator.
 
+## Development Config
+There are a few scripts included which will config windows for development purposes. 
+
+Overview of the scripts included:
+- Changing windows explorer to show hidden files and file extensions by default
+- Enable Telnet Client
+- Enable Telnet Server
+- Setting the JAVA_HOME environment variable to the JAVA installation directory
+- Setting the M2_HOME environment variable to the apache maven installation
+- Setting the M2_REPO environment variable to a specific directory
+- Setting the MAVEN_OPTS environment variable to have specific settings
+- Setting the above environment variables in the PATH variable 
 
 ## Software
 No explanations needed for some of these! All software is latest version available unless otherwise specified.
@@ -44,7 +56,7 @@ No explanations needed for some of these! All software is latest version availab
 - [Filezilla](https://filezilla-project.org/) - FTP Client
 - [Greenshot](http://getgreenshot.org/) - Screenshot which with lots of added functionality
 - [Nimbletext](http://nimbletext.com/) - Regex/Data manipulator
-- [Monitor Switcher](https://sourceforge.net/projects/monitorswitcher/)
+- [Monitor Switcher](https://sourceforge.net/projects/monitorswitcher/) - Great utilty which allows you to save profiles for different monitor setups
 - [Scite 4 Autohotkey](http://fincs.ahk4.net/scite4ahk/) - Editor for autohotkey script development and debugging
 - [Zoomit](https://technet.microsoft.com/en-us/sysinternals/zoomit.aspx) - Very useful tool for screen magnifying/adhoc note taking etc...
 - [Fiddler4](http://www.telerik.com/fiddler) - Web debugging proxy and packet sniffer
