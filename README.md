@@ -1,14 +1,23 @@
 # Dev Environment Setup
-A bat file to install all my development utilities on a windows machine
+A bat file to install all my development utilities on a windows machine.
+
+The .bat file calls a boxstarter script which is located [here](setupWithBoxstarter.txt)
 
 ## Usage
 - Download the [setup.bat](setup.bat) file
 - Open the command prompt as an administrator
-- cd to the directory where you downloaded the .bat file
+- cd to the directory where you have downloaded the .bat file
 - Run the bat file
+- Accept any dialogs that may appear
 - Sit back and relax!
 
 **Note:** Opening the command prompt as an administrator is important. Some software may not install if not run as an administrator.
+
+## To run Boxstarter script only
+- Open Internet Explorer
+- Copy the following link into the address bar: [http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/markquinn12/devEnvironmentSetup/master/setupWithBoxstarter.txt](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/markquinn12/devEnvironmentSetup/master/setupWithBoxstarter.txt)
+- Accept any dialogs that might appear
+- Sit back and relax!
 
 ## Development Config
 There are a few scripts included which will configure windows for development purposes. 
@@ -22,6 +31,10 @@ Overview of the scripts included:
 - Setting the M2_REPO environment variable to a specific directory
 - Setting the MAVEN_OPTS environment variable to have specific settings
 - Setting the above environment variables in the PATH variable 
+- Enable RemoteDesktop
+- Disabled UAC
+- Update-ExecutionPolicy Unrestricted
+- Disable-InternetExplorerESC
 
 ## Software
 No explanations needed for some of these! All software is latest version available unless otherwise specified.
