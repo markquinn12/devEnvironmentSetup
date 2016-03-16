@@ -14,6 +14,8 @@ The .bat file calls a boxstarter script which is located [here](setupWithBoxstar
 **Note:** Opening the command prompt as an administrator is important. Some software may not install if not run as an administrator.
 
 ## To run Boxstarter script only
+The boxstarter script will be downloaded and run using the .bat file above. If you want to run the boxstarter script on its own please see below.
+
 - Open Internet Explorer
 - Copy the following link into the address bar: [http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/markquinn12/devEnvironmentSetup/master/setupWithBoxstarter.txt](http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/markquinn12/devEnvironmentSetup/master/setupWithBoxstarter.txt)
 - Accept any dialogs that might appear
