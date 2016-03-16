@@ -1,17 +1,15 @@
 ############################################
 # Windows configuration changes
 ############################################
-
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
 Disable-InternetExplorerESC
 Disable-UAC
 
-#############################################choco
+#############################################
 # Software Installs
 #############################################
-
 cinst -y jdk8
 cinst -y git.install
 cinst -y nodejs.install
@@ -61,25 +59,3 @@ cinst -y maven
 cinst -y webexplayer
 cinst -y dotnet4.5
 cinst -y chocolateygui
-
-call setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_74"
-call setx M2_HOME "C:\apache-maven-3.3.9"
-call setx M2_REPO "	C:\maven\repository"
-call setx MAVEN_OPTS "-Xms512m –Xmx1024m -XX:MaxPermSize=256m"
-call pkgmgr /iu:”TelnetClient”
-call pkgmgr /iu:”TelnetServer”
-call set PATH=%M2_HOME%\bin;%M2_REPO%;%JAVA_HOME%\bin;
-
-@echo off &setlocal
-set "regkey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
-for /f "tokens=2*" %%a in ('reg query %regkey% /v Hidden^|find "REG_DWORD"') do set /a Hidden=%%b
-for /f "tokens=2*" %%a in ('reg query %regkey% /v ShowSuperHidden^|find "REG_DWORD"') do set /a SSuperHidden=%%b
-if "%hidden%"=="1" (set /a hidden=2, SSuperHidden=0) else set /a hidden=1, SSuperHidden=1
-reg add %regkey% /f /v Hidden /t REG_DWORD /d %hidden% >nul
-reg add %regkey% /f /v ShowSuperHidden /t REG_DWORD /d %SSuperHidden% >nul
-for /f "tokens=2*" %%a in ('reg query %regkey% /v Hidden^|find "REG_DWORD"') do set /a Hidden=%%b
-<nul set /p="System files and folder are "
-if "%hidden%"=="1" (echo NOT hidden.) else echo hidden.
-endlocal
-
-pause
