@@ -8,59 +8,59 @@ Enable-RemoteDesktop
 Disable-InternetExplorerESC
 Disable-UAC
 
-#############################################
+#############################################choco
 # Software Installs
 #############################################
 
-choco install -y jdk8
-choco install -y git.install
-choco install -y nodejs.install
-choco install -y flashplayerplugin
-choco install -y skype
-choco install -y silverlight
-choco install -y aquasnap
-choco install -y gifcam
-choco install -y phraseexpress.install
-choco install -y autohotkey.install
-choco install -y caffeine
-choco install -y listary
-choco install -y virtualbox
-choco install -y notepadplusplus.install
-choco install -y visualstudiocode
-choco install -y ditto
-choco install -y tortoisegit
-choco install -y tortoisesvn
-choco install -y dropbox
-choco install -y googledrive
-choco install -y googlechrome
-choco install -y adblockpluschrome
-choco install -y googlechrome.dev
-choco install -y firefox
-choco install -y adblockplusfirefox
-choco install -y filezilla
-choco install -y greenshot
-choco install -y nimbletext
-choco install -y monitorswitcher
-choco install -y scite4autohotkey
-choco install -y zoomit
-choco install -y fiddler4
-choco install -y sublimetext3
-choco install -y eclipse
-choco install -y 7zip.install
-choco install -y vlc
-choco install -y qbittorrent 
-choco install -y ccleaner
-choco install -y malwarebytes
-choco install -y lockhunter
-choco install -y synergy
-choco install -y winmerge
-choco install -y winrar
-choco install -y putty
-choco install -y picasa
-choco install -y maven
-choco install -y webexplayer
-choco install -y dotnet4.5
-choco install -y chocolateygui
+cinst -y jdk8
+cinst -y git.install
+cinst -y nodejs.install
+cinst -y flashplayerplugin
+cinst -y skype
+cinst -y silverlight
+cinst -y aquasnap
+cinst -y gifcam
+cinst -y phraseexpress.install
+cinst -y autohotkey.install
+cinst -y caffeine
+cinst -y listary
+cinst -y virtualbox
+cinst -y notepadplusplus.install
+cinst -y visualstudiocode
+cinst -y ditto
+cinst -y tortoisegit
+cinst -y tortoisesvn
+cinst -y dropbox
+cinst -y googledrive
+cinst -y googlechrome
+cinst -y adblockpluschrome
+cinst -y googlechrome.dev
+cinst -y firefox
+cinst -y adblockplusfirefox
+cinst -y filezilla
+cinst -y greenshot
+cinst -y nimbletext
+cinst -y monitorswitcher
+cinst -y scite4autohotkey
+cinst -y zoomit
+cinst -y fiddler4
+cinst -y sublimetext3
+cinst -y eclipse
+cinst -y 7zip.install
+cinst -y vlc
+cinst -y qbittorrent 
+cinst -y ccleaner
+cinst -y malwarebytes
+cinst -y lockhunter
+cinst -y synergy
+cinst -y winmerge
+cinst -y winrar
+cinst -y putty
+cinst -y picasa
+cinst -y maven
+cinst -y webexplayer
+cinst -y dotnet4.5
+cinst -y chocolateygui
 
 call setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_74"
 call setx M2_HOME "C:\apache-maven-3.3.9"
