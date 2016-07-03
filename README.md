@@ -69,7 +69,7 @@ No explanations needed for some of these! All software is latest version availab
 - Firefox
 - Ad Block Plus For Firefox
 - [Filezilla](https://filezilla-project.org/) - FTP Client
-- [Greenshot](http://getgreenshot.org/) - Screenshot which with lots of added functionality
+- [Greenshot](http://getgreenshot.org/) - Screenshot tool with lots of added functionality
 - [Nimbletext](http://nimbletext.com/) - Regex/Data manipulator
 - [Monitor Switcher](https://sourceforge.net/projects/monitorswitcher/) - Great utilty which allows you to save profiles for different monitor setups
 - [Scite 4 Autohotkey](http://fincs.ahk4.net/scite4ahk/) - Editor for autohotkey script development and debugging
