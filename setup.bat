@@ -8,6 +8,6 @@ call setx M2_REPO "	C:\maven\repository"
 call setx MAVEN_OPTS "-Xms512m –Xmx1024m -XX:MaxPermSize=256m"
 call pkgmgr /iu:”TelnetClient”
 call pkgmgr /iu:”TelnetServer”
-call set PATH=%M2_HOME%\bin;%M2_REPO%;%JAVA_HOME%\bin;
+call set PATH=%PATH%;%M2_HOME%\bin;%M2_REPO%;%JAVA_HOME%\bin;
 
 pause
