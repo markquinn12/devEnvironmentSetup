@@ -60,4 +60,5 @@ cinst -y webexplayer
 cinst -y dotnet4.5
 cinst -y chocolateygui
 cinst -y mobaxterm
-cints -y paint.net
+cinst -y paint.net
+cinst -y regexpeditor
