@@ -99,3 +99,4 @@ The below tools are not available on chocolatey so need to be manually downloade
 - [SqlDeveloper](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index-097090.html) - GUI for oracle DB.
 - [SonarQube](http://www.sonarqube.org/) - Open source tool to manage code quality
 - [Slack](https://slack.com/downloads) - Messaging app for teams
+- [Keystore-explorer](http://keystore-explorer.org/) - Good tool for working with keystores
