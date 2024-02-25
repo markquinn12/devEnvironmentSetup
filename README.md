@@ -100,3 +100,4 @@ The below tools are not available on chocolatey so need to be manually downloade
 - [SonarQube](http://www.sonarqube.org/) - Open source tool to manage code quality
 - [Slack](https://slack.com/downloads) - Messaging app for teams
 - [Keystore-explorer](http://keystore-explorer.org/) - Good tool for working with keystores
+- 
